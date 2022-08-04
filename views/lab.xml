@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id='lab_action' model='ir.actions.act_window'>
+        <field name="name">Lab</field>
+        <field name="res_model">lab</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <menuitem name="LERM" id="lerm_base_menu" />
+    <menuitem name="Lab" id="lab_menu" parent="lerm_base_menu" action="lab_action"/>
+    
+</odoo>
